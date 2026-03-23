@@ -56,14 +56,6 @@ Completed theoretical and practical modules in preparation for workplace-based s
 
 ---
 
-## 🎬 Mock Interview Video
-
-> Click below to watch my mock interview video:
-
-[![Mock Interview](https://img.shields.io/badge/▶%20Watch%20Mock%20Interview-blue?style=for-the-badge)](./mock-interview.mp4)
-
----
-
 ## 🤝 References
 
 **Myrtle Hendricks**
