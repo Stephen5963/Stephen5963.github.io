@@ -1,5 +1,5 @@
 # Stephen5963.github.io
-![Profile Photo](Stephen Image.jpeg)
+photo.jpeg
 
 ### ICT Communication Networks | CPUT 3rd Year Student | Service Training Candidate
 
