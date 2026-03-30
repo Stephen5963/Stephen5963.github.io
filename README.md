@@ -37,19 +37,6 @@ Hoërskool Generaal Hertzog, Witbank | 2021
 
 ---
 
-## 📂 Projects & Coursework
-
-### 🔹 Network Design & Simulation (CISCO Packet Tracer)
-Designed and simulated a small enterprise network topology including routers, switches, VLANs and basic security configurations using CISCO Packet Tracer as part of coursework.
-
-### 🔹 Database Management System (MySQL & Java)
-Developed a basic database-backed application using Java and MySQL, implementing CRUD operations and basic user interface functionality.
-
-### 🔹 ICT Service Training Preparation
-Completed theoretical and practical modules in preparation for workplace-based service training, covering professional conduct, networking principles, and ICT support fundamentals.
-
----
-
 ## 💼 Work Experience
 
 **MAL Creations** | Jan 2023 – Dec 2023
