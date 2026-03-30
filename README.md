@@ -1,5 +1,5 @@
 # Stephen5963.github.io
-![Profile Photo](Stephen Image 2026-02-25 at 5.09.06 PM.jpeg)
+![Profile Photo](./images/Stephen Image 2026-02-25 at 5.09.06 PM.jpeg)
 
 ### ICT Communication Networks | CPUT 3rd Year Student | Service Training Candidate
 
