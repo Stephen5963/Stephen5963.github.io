@@ -69,7 +69,7 @@ Hoërskool Generaal Hertzog, Witbank | 2021
 ---
 <h2>Mock Interview Video</h2>
 <video width="600" controls>
-  <source src="assets/interview.mp4" type="video/mp4">
+  <source src="assets/mock interview 2.mp4" type="video/mp4">
 </video>
 
 ---
