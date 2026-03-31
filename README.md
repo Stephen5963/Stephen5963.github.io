@@ -82,4 +82,4 @@ networking principles, and ICT support fundamentals.
 
 ## 🎥 Mock Interview Video
 
-[▶️ Click here to watch my Mock Interview](./videos/mock_interview_2.mp4)
+[▶️ Click here to watch my Mock Interview](./videos/mock interview 2.mp4)
