@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stephen Hendricks – CV</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f0f0f0;
+      color: #222;
+      font-size: 13px;
+    }
+    .page {
+      max-width: 860px;
+      margin: 30px auto;
+      display: flex;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+      background: #fff;
+    }
+    .sidebar {
+      width: 270px;
+      min-width: 270px;
+      background: #1a2a3a;
+      color: #fff;
+      padding: 0 0 30px 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .sidebar-photo {
+      width: 100%;
+      height: 280px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #243447;
+    }
+    .sidebar-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .sidebar-name {
+      background: #2e86ab;
+      padding: 14px 18px;
+      text-align: center;
+    }
+    .sidebar-name h1 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      line-height: 1.4;
+    }
+    .sidebar-name p {
+      font-size: 11px;
+      color: #d0eaf5;
+      margin-top: 4px;
+    }
+    .sidebar-section {
+      padding: 16px 18px 4px 18px;
+    }
+    .sidebar-section-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #2e86ab;
+      border-bottom: 1px solid #2e86ab;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+    }
+    .sidebar-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      margin-bottom: 8px;
+      font-size: 12px;
+      color: #cdd6e0;
+      line-height: 1.5;
+    }
+    .sidebar-item .icon {
+      color: #2e86ab;
+      font-size: 13px;
+      margin-top: 1px;
+      min-width: 16px;
+    }
+    .sidebar-item a {
+      color: #cdd6e0;
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .sidebar-item a:hover { color: #2e86ab; }
+    .skills-list { list-style: none; padding: 0; }
+    .skills-list li {
+      font-size: 12px;
+      color: #cdd6e0;
+      padding: 3px 0;
+      border-bottom: 1px solid #243447;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .skills-list li::before {
+      content: '▸';
+      color: #2e86ab;
+      font-size: 10px;
+    }
+    .main {
+      flex: 1;
+      padding: 28px;
+      background: #fff;
+    }
+    .main-section { margin-bottom: 22px; }
+    .main-section-title {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #2e86ab;
+      border-bottom: 2px solid #2e86ab;
+      padding-bottom: 4px;
+      margin-bottom: 12px;
+    }
+    .edu-item { margin-bottom: 12px; }
+    .edu-item .degree {
+      font-weight: 700;
+      font-size: 13px;
+      color: #1a2a3a;
+    }
+    .edu-item .school {
+      font-size: 12px;
+      color: #555;
+    }
+    .edu-item .year {
+      font-size: 11px;
+      color: #2e86ab;
+      font-weight: 600;
+    }
+    .job-item { margin-bottom: 14px; }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .job-title {
+      font-weight: 700;
+      font-size: 13px;
+      color: #1a2a3a;
+    }
+    .job-duration {
+      font-size: 11px;
+      color: #2e86ab;
+      font-weight: 600;
+      white-space: nowrap;
+      margin-left: 10px;
+    }
+    .job-duties {
+      font-size: 12px;
+      color: #444;
+      padding-left: 14px;
+      list-style: disc;
+      line-height: 1.6;
+      margin-top: 4px;
+    }
+    .project-item { margin-bottom: 12px; }
+    .project-title {
+      font-weight: 700;
+      font-size: 13px;
+      color: #1a2a3a;
+    }
+    .project-desc {
+      font-size: 12px;
+      color: #444;
+      line-height: 1.6;
+      margin-top: 2px;
+    }
+    .ref-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .ref-item .ref-name {
+      font-weight: 700;
+      font-size: 13px;
+      color: #1a2a3a;
+    }
+    .ref-item .ref-role {
+      font-size: 12px;
+      color: #2e86ab;
+      margin-bottom: 3px;
+    }
+    .ref-item .ref-contact {
+      font-size: 12px;
+      color: #555;
+      line-height: 1.6;
+    }
+    .objective-text {
+      font-size: 12.5px;
+      color: #444;
+      line-height: 1.7;
+      border-left: 3px solid #2e86ab;
+      padding-left: 12px;
+    }
+    .video-container {
+      margin-top: 10px;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #000;
+    }
+    .video-container video {
+      width: 100%;
+      display: block;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <div class="sidebar-photo">
+      <img src="./images/profile.jpg" alt="Stephen Hendricks"/>
+    </div>
+    <div class="sidebar-name">
+      <h1>Stephen<br>Hendricks</h1>
+      <p>ICT Communication Networks<br>CPUT 3rd Year Student</p>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Contact</div>
+      <div class="sidebar-item">
+        <span class="icon">📍</span>
+        <span>3 Beets Street, Newton,<br>Wellington, Western Cape, 7655</span>
+      </div>
+      <div class="sidebar-item">
+        <span class="icon">📞</span>
+        <span>062 672 4317</span>
+      </div>
+      <div class="sidebar-item">
+        <span class="icon">✉</span>
+        <span>222774703@mycput.ac.za</span>
+      </div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Technical Skills</div>
+      <ul class="skills-list">
+        <li>Java</li>
+        <li>MySQL</li>
+        <li>CISCO Packet Tracer</li>
+        <li>Network Configuration</li>
+        <li>Troubleshooting</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="main">
+
+    <div class="main-section">
+      <div class="main-section-title">Objective</div>
+      <p class="objective-text">
+        A dedicated and motivated 3rd-year ICT Communication Networks
+        student at CPUT, seeking a service training opportunity to apply
+        and develop technical skills in a professional environment. Eager
+        to gain hands-on industry experience, contribute meaningfully to
+        the organisation, and grow as a network and ICT professional.
+      </p>
+    </div>
+
+    <div class="main-section">
+      <div class="main-section-title">Education</div>
+      <div class="edu-item">
+        <div class="degree">Diploma in ICT: Communication Networks
+        *(3rd Year — Current)*</div>
+        <div class="school">Cape Peninsula University of Technology,
+        Cape Town</div>
+        <div class="year">2024 – Present</div>
+      </div>
+      <div class="edu-item">
+        <div class="degree">Higher Certificate in ICT</div>
+        <div class="school">Cape Peninsula University of Technology,
+        Cape Town</div>
+        <div class="year">2023</div>
+      </div>
+      <div class="edu-item">
+        <div class="degree">Senior Certificate (Matric)</div>
+        <div class="school">Hoerskool Generaal Hertzog, Witbank</div>
+        <div class="year">2021</div>
+      </div>
+    </div>
+
+    <div class="main-section">
+      <div class="main-section-title">Work Experience</div>
+      <div class="job-item">
+        <div class="job-header">
+          <div class="job-title">MAL Creations</div>
+          <div class="job-duration">Jan 2023 – Dec 2023</div>
+        </div>
+        <ul class="job-duties">
+          <li>Supported daily business operations including admin
+          and customer liaison</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-section">
+      <div class="main-section-title">Projects & Coursework</div>
+      <div class="project-item">
+        <div class="project-title">Network Design & Simulation
+        (CISCO Packet Tracer)</div>
+        <div class="project-desc">Designed and simulated a small
+        enterprise network topology including routers, switches, VLANs
+        and basic security configurations using CISCO Packet Tracer
+        as part of coursework.</div>
+      </div>
+      <div class="project-item">
+        <div class="project-title">Database Management System
+        (MySQL & Java)</div>
+        <div class="project-desc">Developed a basic database-backed
+        application using Java and MySQL, implementing CRUD operations
+        and basic user interface functionality.</div>
+      </div>
+      <div class="project-item">
+        <div class="project-title">ICT Service Training
+        Preparation</div>
+        <div class="project-desc">Completed theoretical and practical
+        modules in preparation for workplace-based service training,
+        covering professional conduct, networking principles, and ICT
+        support fundamentals.</div>
+      </div>
+    </div>
+
+    <div class="main-section">
+      <div class="main-section-title">References</div>
+      <div class="ref-grid">
+        <div class="ref-item">
+          <div class="ref-name">Myrtle Hendricks</div>
+          <div class="ref-role">Owner – MAL Creations</div>
+          <div class="ref-contact">
+            Malcreations2006@gmail.com<br>
+            079 404 6798
+          </div>
+        </div>
+        <div class="ref-item">
+          <div class="ref-name">Mr Van Rooyen</div>
+          <div class="ref-role">Principal – Hoerskool
+          Generaal Hertzog</div>
+          <div class="ref-contact">
+            Contact via school
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-section">
+      <div class="main-section-title">🎥 Mock Interview Video</div>
+      <div class="video-container">
+        <video controls>
+          <source src="./videos/mock_interview.mp4"
+          type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+  </div><!-- end main -->
+</div><!-- end page -->
+</body>
+</html>
