@@ -1,6 +1,6 @@
 # STEPHEN HENDRICKS
 
-![Stephen Hendricks](./images/profile.jpg)
+![Stephen Hendricks](./images/photo.jpg)
 
 📞 062 672 4317 | ✉️ 222774703@mycput.ac.za | 📍 3 Beets Street, Newton, Wellington, Western Cape, 7655
 
