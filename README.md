@@ -1,4 +1,5 @@
 # STEPHEN HENDRICKS
+---
 
 ![Stephen Hendricks](./images/photo.jpg)
 
