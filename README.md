@@ -137,3 +137,21 @@ My aim was to turn my professional profile into Markdown for a GitHub-style port
 I ended up with a polished, impactful digital CV.
 
 ---
+
+### Reflection: Digital Portfolio Deployment via GitHub Pages
+
+### 📍 Situation  
+After wrapping up my digital CV, I needed a solid place to showcase my work. I wanted to ditch traditional document sharing and go for something that felt more in line with what’s happening in the tech industry, especially when it comes to version control and web hosting.
+
+### 🎯 Task  
+I aimed to get a live, accessible version of my portfolio up and running using GitHub Pages. The idea was to create a straightforward link that recruiters could use to check out my skills, interview feedback, and project evidence in one go.
+
+### 🛠️ Action  
+* **Hosting & Deployment:** I set up GitHub Pages to turn my repository into a static site, making sure everything looked good online.
+* **Content Management:** I added links to my videos and organized my technical documents for an easy experience.
+* **Continuous Improvement:** I utilized Git to manage updates, letting me fine-tune my professional story and showcase my work as I prepare for service training.
+
+### 📊 Result  
+I successfully launched a live digital portfolio that shows off both my tech skills and my ability to communicate effectively. By hosting my CV this way, I’ve created a clear demonstration of my capability to manage digital content and present it professionally in a real-world context.
+
+---
