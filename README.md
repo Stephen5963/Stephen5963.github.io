@@ -119,3 +119,22 @@ The session successfully highlighted my **composure and structured thinking**. H
 
 ---
 
+Reflection: Digital Portfolio & CV Development
+📍 Situation
+As a 3rd-year ICT student preparing for service training, I needed a way to present my technical skills, academic history, and behavioral competencies in a modern, web-friendly format that goes beyond a traditional PDF.
+
+🎯 Task
+My goal was to translate my professional profile into Markdown language for a GitHub-style portfolio. I specifically wanted to merge my technical CV with my mock interview performance to create a comprehensive "digital evidence" package for recruiters.
+
+🛠️ Action
+Information Architecture: I organized my data into logical sections (Education, Technical Skills, and Projects) using Markdown tables to ensure the information is scannable.
+
+Multimedia Integration: I embedded a direct link to my Mock Interview video and used a placeholder for my professional headshot to create an interactive experience.
+
+Self-Assessment: I applied the STAR method to analyze my interview performance, documenting not just what I said, but how I plan to improve my responses by adding "Evidence of Work" from my Cisco and Java projects.
+
+📊 Result
+I produced a professional, high-impact digital CV that is ready for deployment on platforms like GitHub or GitLab. By including the reflection alongside my technical credentials, I have successfully demonstrated that I possess both the technical ability (Networking/Java) and the soft skills (Self-awareness/Communication) required for a service training role.
+
+---
+
