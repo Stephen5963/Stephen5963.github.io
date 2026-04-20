@@ -113,12 +113,6 @@ The session successfully highlighted my **composure and structured thinking**. H
 
 ---
 
-## Skills Demonstrated
-* **Soft Skills:** Self-Reflection, Communication, Professionalism.
-* **Technical Mindset:** Systematic Goal Setting, Stress Mitigation, Analytical Thinking.
-
----
-
 # Reflection: Digital Portfolio & CV Development
 
 ### 📍 Situation  
