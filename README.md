@@ -141,7 +141,7 @@ I ended up with a polished, impactful digital CV.
 ### Reflection: Digital Portfolio Deployment via GitHub Pages
 
 ### 📍 Situation  
-After wrapping up my digital CV, I needed a solid place to showcase my work. I wanted to ditch traditional document sharing and go for something that felt more in line with what’s happening in the tech industry, especially when it comes to version control and web hosting.
+After wrapping up my digital CV, I realized that Github is a solid place to showcase my work. Ditching the traditional document sharing felt more in line with what’s happening in the tech industry, especially when it comes to version control and web hosting.
 
 ### 🎯 Task  
 I aimed to get a live, accessible version of my portfolio up and running using GitHub Pages. The idea was to create a straightforward link that recruiters could use to check out my skills, interview feedback, and project evidence in one go.
