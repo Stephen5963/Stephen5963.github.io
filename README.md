@@ -83,3 +83,38 @@ networking principles, and ICT support fundamentals.
 ## 🎥 Mock Interview Video
 
 [▶️ Click here to watch my Mock Interview](./videos/mock interview 2.mp4)
+---
+# Mock Interview Reflection: Behavioral Competencies
+
+## Project Overview
+This repository documents my progress in developing professional communication and interview skills. As a student in **Information and Communication Technology**, I participated in a recorded mock interview to refine my ability to articulate technical mindsets in a behavioral context.
+
+---
+
+## STAR Reflection
+
+### 📍 Situation
+I participated in a recorded mock interview session designed to simulate a professional recruitment process. The focus was on answering high-level behavioral questions regarding passion, stress management, and strategic planning.
+
+### 🎯 Task
+My objective was to demonstrate a **structured, professional persona** and prove my ability to handle the pressures of a technical environment (such as Network Engineering or UI/UX Design). I aimed to provide concise, genuine answers that reflected my identity as a logical problem-solver.
+
+### 🛠️ Action
+* **Visual Setup:** I curated a professional environment with a clean, neutral background and centered framing to ensure high-quality digital presence.
+* **Response Strategy:** I focused on core strengths:
+    * **Problem-Solving:** Emphasized a passion for resolving complex challenges.
+    * **Goal Setting:** Articulated a methodology of deconstructing large-scale objectives into manageable tasks.
+* **Delivery:** Maintained a calm, measured tone and consistent eye contact with the camera to simulate an authentic professional engagement.
+
+### 📊 Result
+The session successfully highlighted my **composure and structured thinking**. However, self-review revealed that my responses were primarily conceptual. 
+* **Improvement Plan:** In future iterations, I will bridge the gap between theory and practice by integrating specific "Evidence of Work," such as referencing my **Cisco configuration projects** or **prototyping workflows** to ground my claims in real-world experience.
+
+---
+
+## Skills Demonstrated
+* **Soft Skills:** Self-Reflection, Communication, Professionalism.
+* **Technical Mindset:** Systematic Goal Setting, Stress Mitigation, Analytical Thinking.
+
+---
+
